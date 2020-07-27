@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * animate.css - https://animate.style/
  * Version - 4.0.0
@@ -12,8 +12,8 @@
 	--animate-repeat: 1;
 }
 
-.not-animated,
-[data-animate]:not(.animated) { opacity: 0; }
+/*.not-animated,
+[data-animate]:not(.animated) { opacity: 0; }*/
 
 .animated {
 	-webkit-animation-duration: 1s;
@@ -4074,4 +4074,7 @@
 .slideOutUp {
 	-webkit-animation-name: slideOutUp;
 	animation-name: slideOutUp;
+}
+.justify-p p{
+	text-align: justify
 }
